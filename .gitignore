@@ -1,39 +1,49 @@
+### JAVA (Maven) ###
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.restoreBackup
+.factorypath
+.mvn/
+mvnw.cmd
+.metadata/
+
+### PYTHON ###
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+.pytest_cache/
+.python-version
+
+### IDEs (O que você já enviou) ###
+.idea/
+out/
 .kotlin
-
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
-
-### Eclipse ###
 .apt_generated
 .classpath
-.factorypath
 .project
 .settings
 .springBeans
 .sts4-cache
-
-### NetBeans ###
+bin/
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
 .vscode/
 
-### Mac OS ###
+### SISTEMA OPERACIONAL ###
 .DS_Store
+Thumbs.db
+desktop.ini
+
+### LOGS ###
+*.log
+logs/
